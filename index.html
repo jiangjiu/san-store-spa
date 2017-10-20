@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>san-store-spa</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f0f3f4;
+            color: #58666e;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        h3,
+        p,
+        ul,
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            user-select: none;
+        }
+        a {
+            text-decoration: none;
+            user-select: none;
+        }
+
+        #app {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .app-drawer {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 200px;
+            overflow: auto;
+            box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.10);
+            background: #fff;
+            z-index: 100;
+            color: #c1c3c9;
+            text-align: center;
+        }
+        .drawer-title {
+            background: #3a3f51;
+            padding: 10px;
+            height：50px;
+        }
+        .app-drawer .menu ul li {
+            height: 40px;
+            font-size: 16px;
+            color: #fff;
+            padding: 10px;
+            line-height: 40px;
+        }
+        .app-bar {
+            position: fixed;
+            left: 200px;
+            right: 0;
+            top: 0;
+            width: auto;
+            background: #fff;
+            color: #333;
+            z-index: 10;
+            padding: 0 16px;
+            height: 44px;
+            line-height: 44px;
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+        }
+        .app-bar .user-info {
+            float: right;
+        }
+        .app-content {
+            position: fixed;
+            top: 52px;
+            left: 200px;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            overflow: auto;
+        }
+        #main {
+            padding: 10px;
+            padding-bottom: 25px;
+        }
+        </style>
+    </head>
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+</html>
